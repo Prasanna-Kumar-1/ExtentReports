@@ -48,7 +48,7 @@ public class ExtentReportDemo {
 			driver=new ChromeDriver();
 			driver.get("http://www.google.com");
 			System.out.println("title is "+driver.getTitle());
-			Assert.assertTrue(driver.getTitle().contains("Mukesh"));
+			Assert.assertTrue(driver.getTitle().contains("Prasanna"));
 		}
 		
 	    // This will run after testcase and it will capture screenshot and add in report
