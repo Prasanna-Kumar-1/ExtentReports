@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10017" started-at="2020-02-01T08:18:38Z" finished-at="2020-02-01T08:18:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10017" started-at="2020-02-01T08:18:38Z" finished-at="2020-02-01T08:18:48Z">
+      <class name="ExtentReport.ExtentReportDemo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ExtentReport.ExtentReportDemo@56ef9176]" name="setUp" is-config="true" duration-ms="318" started-at="2020-02-01T08:18:38Z" finished-at="2020-02-01T08:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:ExtentReport.ExtentReportDemo@56ef9176]" name="loginTest" duration-ms="8125" started-at="2020-02-01T08:18:38Z" finished-at="2020-02-01T08:18:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at ExtentReport.ExtentReportDemo.loginTest(ExtentReportDemo.java:51)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:ExtentReport.ExtentReportDemo@56ef9176]" name="tearDown" is-config="true" duration-ms="1512" started-at="2020-02-01T08:18:47Z" finished-at="2020-02-01T08:18:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=FAILURE method=ExtentReportDemo.loginTest()[pri:0, instance:ExtentReport.ExtentReportDemo@56ef9176] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ExtentReport.ExtentReportDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
